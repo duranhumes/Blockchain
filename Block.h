@@ -14,6 +14,8 @@ public:
 
     Block(uint32_t nIndexIn, const std::string &sDataIn);
 
+    std::string GetData() { return this->sData; };
+
     void MineBlock(uint32_t nDifficulty);
 
 private:

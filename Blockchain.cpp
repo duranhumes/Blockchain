@@ -1,3 +1,7 @@
+#include <cstdlib>
+#include <iostream>
+#include <string>
+
 #include "Blockchain.h"
 
 Blockchain::Blockchain()
